@@ -7,6 +7,13 @@ Contributors: Dr. Xiangnan He (staff.ustc.edu.cn/~hexn/), Kuan Deng, Yingxin Wu.
 
 (We also provide Pytorch implementation for LightGCN : https://github.com/gusye1234/LightGCN-PyTorch. Contributors: Jianbai Ye.)
 
+## Extra
+Para criação do ambiente Conda:
+```
+conda create -n LightGCN python=3.6.5 tensorflow=1.11.0 numpy=1.14.3 scipy=1.1.0 scikit-learn=0.19.1 cython=0.29.15
+```
+Depois é só seguir os passos
+
 ## Introduction
 In this work, we aim to simplify the design of GCN to make it more concise and appropriate for recommendation. We propose a new model named LightGCN, including only the most essential component in GCN—neighborhood aggregation—for collaborative filtering.
 
